@@ -20,7 +20,7 @@ public class HeapSort {
      * @param len array length
      */
     private static void heapify(int[] a, int len) {
-        int start = parent(len+1);
+        int start = parent(len);
         while (start >= 0) {
             int left = leftChild(start);
             int right = rightChild(start);
